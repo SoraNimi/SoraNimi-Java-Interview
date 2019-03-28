@@ -7,7 +7,6 @@ import java.util.List;
 //Reduce中文含义为：减少、缩小；而Stream中的Reduce方法干的正是这样的活：
 //根据一定的规则将Stream中的元素进行计算后返回一个唯一的值。
 public class Test4 {
-
     public static void main(String[] args) {
         mapReduce();
     }
