@@ -17,5 +17,7 @@ public class Lambda {
             System.out.println("实现函数接口方法");
             return x + y;
         };
+
+
     }
 }
