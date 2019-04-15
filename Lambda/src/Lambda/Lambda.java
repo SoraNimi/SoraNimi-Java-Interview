@@ -7,7 +7,7 @@ import java.util.function.Consumer;
 public class Lambda {
     public static void main(String[] args) {
         //语法格式一：无参，无返回值，Lambda体只需要一条语句。
-        Runnable r=()->System.out.println("Hello Lambda");
+        Runnable r = () -> System.out.println("Hello Lambda");
         //语法格式二：Lambda需要一个参数
         Consumer<String> con = (x) -> System.out.println(x);
         //语法格式五：当Lambda体只有一条语句时，return与大括号可以省略
@@ -17,7 +17,6 @@ public class Lambda {
             System.out.println("实现函数接口方法");
             return x + y;
         };
-
 
     }
 }
